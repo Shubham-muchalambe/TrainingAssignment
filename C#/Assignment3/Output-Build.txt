@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: Assignment3, Configuration: Debug Any CPU ------
+1>CSC : error CS5001: Program does not contain a static 'Main' method suitable for an entry point
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
