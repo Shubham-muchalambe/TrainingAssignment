@@ -1,0 +1,2 @@
+SELECT DATEDIFF(dd,'1999/04/24','2022/05/17') AS DateDiff;
+
