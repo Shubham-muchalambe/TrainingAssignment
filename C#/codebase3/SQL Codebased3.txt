@@ -1,0 +1,33 @@
+create database EmployeeManagement
+
+
+
+use EmployeeManagement
+
+
+
+create table Code_Employee ( empno int primary key, 
+empname varchar(50) not null, 
+empsal numeric(10,2) check(empsal >= 25000) , 
+emptype varchar(1) check(emptype in('C','P')) ) 
+
+
+select * from 
+
+
+
+CREATE PROCEDURE [dbo].[InsertEmployeeProcdure]
+       @empno int, 
+       @empname varchar(200), 
+       @empsal numeric(10,2),
+	   @emptype varchar(200)
+AS
+IF NOT EXISTS (SELECT NULL FROM Code_Employee
+                WHERE @empno =@empno)
+BEGIN
+    INSERT INTO 
+        Code_Employee 
+        (empno,empname,empsal,emptype) 
+        VALUES 
+        (@empno,@empname,@empsal,@emptype)
+END
