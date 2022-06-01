@@ -1,1 +1,6 @@
 C:\Assignments\C#\codebase3\codebase3\obj\Debug\codebase3.csproj.CoreCompileInputs.cache
+C:\Assignments\C#\codebase3\codebase3\bin\Debug\codebase3.exe.config
+C:\Assignments\C#\codebase3\codebase3\bin\Debug\codebase3.exe
+C:\Assignments\C#\codebase3\codebase3\bin\Debug\codebase3.pdb
+C:\Assignments\C#\codebase3\codebase3\obj\Debug\codebase3.exe
+C:\Assignments\C#\codebase3\codebase3\obj\Debug\codebase3.pdb

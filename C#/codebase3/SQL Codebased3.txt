@@ -12,7 +12,7 @@ empsal numeric(10,2) check(empsal >= 25000) ,
 emptype varchar(1) check(emptype in('C','P')) ) 
 
 
-select * from 
+select * from Code_employee
 
 
 
