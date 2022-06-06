@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2A91E47-2493-414F-AB61-E665B8B3D984}</ProjectGuid>
+    <ProjectGuid>{EC88CF49-BDB7-45C8-89ED-D573A580EDDE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>casestudy</RootNamespace>
-    <AssemblyName>casestudy</AssemblyName>
+    <RootNamespace>CaseStudy</RootNamespace>
+    <AssemblyName>CaseStudy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="interfaceuseraction.cs" />
+    <Compile Include="Properties\App.cs" />
+    <Compile Include="Properties\AppEngine.cs" />
+    <Compile Include="Properties\Enroll.cs" />
+    <Compile Include="Properties\info.cs" />
+    <Compile Include="Properties\UserInterFace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
