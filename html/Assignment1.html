@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>  </title>
+<style>
+h1 {
+color: brown;
+font-family: serif;
+font-weight: bold;
+}
+
+#style1 {
+background-color: skyblue;
+text-align: center;
+}
+
+.style2 {
+background-color: white;
+color: black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+<div id="style1">
+<h1>Sample form 01</h1>
+Enter 1st no. : <input id="num1" type="text" size="25" /> <br /> <br />
+Enter 2nd no. : <input id="num2" type="text" size="25" /> <br /> <br />
+
+<button onclick="multiply()" class="style2"> Multiply </button> &nbsp;&nbsp;&nbsp;
+<button onclick="divide()" class="style2"> Divide </button> <br /> <br />
+
+<div id="Result"></div> <br />
+</div>
+<script type="text/javascript">
+function multiply() {
+let one = document.getElementById("num1").value;
+let two = document.getElementById("num2").value;
+document.getElementById("Result").innerHTML = "The Result is :" + one * two;
+}
+function divide() {
+var one = document.getElementById("num1").value;
+var two = document.getElementById("num2").value;
+document.getElementById("Result").innerHTML = "The Result is :" + one / two;
+}
+
+</script>
+</body>
+</html>

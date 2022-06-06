@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+h1 {
+color: red;
+font-family:verdhana;
+font-weight: bold;
+}
+
+#style1 {
+background-color: greenyellow;
+text-align: center;
+}
+
+.style2 {
+background-color: white;
+color: black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<body>
+<div id="style1">
+<h1>Sample form 02</h1>
+Enter 1st no. : <input id="num1" type="text" size="25" /> <br /> <br />
+Enter 2nd no. : <input id="num2" type="text" size="25" /> <br /> <br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="sum()" class="style2"> Print </button> <br /> <br />
+
+<div id="result"></div> <br />
+<div />
+<script type="text/javascript">
+function sum() {
+var one = parseInt(document.getElementById("num1").value);
+var two = parseInt(document.getElementById("num2").value);
+if (one == two) {
+document.getElementById("result").innerHTML = "The result is :" + (one + two) * 3;
+}
+else {
+document.getElementById("result").innerHTML = "The result is :" + (one + two);
+}
+}
+
+</script>
+</body>
+
+</body>
+</html>

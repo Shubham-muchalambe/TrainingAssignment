@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+h1 {
+color: rgb(13, 14, 13);
+font-family: serif;
+font-weight: bold;
+}
+#style1 {
+background-color: rgb(255, 247, 140);
+text-align: center;
+}
+.style2 {
+background-color: black;
+color: wheat;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+<div id="style1">
+<h1>Sample form 03</h1>
+Enter 1st no. : <input id="num1" type="text" size="25" /> <br /> <br />
+Enter 2nd no. : <input id="num2" type="text" size="25" /> <br /> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="check()" class="style2"> check </button> <br /> <br />
+<div id="result"></div> <br />
+<div />
+<script type="text/javascript">
+function check() {
+var one = parseInt(document.getElementById("num1").value);
+var two = parseInt(document.getElementById("num2").value);
+if ((one > 50 && one < 99) && (two > 50 && two < 99)) {
+document.getElementById("result").innerHTML = "The result is : " + true;
+}
+else {
+document.getElementById("result").innerHTML = "The result is : " + false;
+}
+}
+</script>
+</body>
+</html>
